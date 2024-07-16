@@ -1,0 +1,330 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.general {
+    background-color: #292E36;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    padding-top: 194px;
+}
+.hero h1 {
+    font-family: Cormorant Infant;
+    font-size: 80px;
+    color: white;
+    width: 574px;
+    line-height: 77px;
+    padding-bottom: 32px;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    width: 613px;
+    line-height: 25px;
+    padding-bottom: 43px;
+}
+
+.hero button {
+    width: 232px;
+    height: 68px;
+    background-color: #292E36;
+    border: 2px solid #E1B168;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: Josefin Sans;
+}
+
+.image {
+    padding-top: 24px;
+    width: 709px;
+    height: 747px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.place {
+    background-color: #FFF8F5;
+}
+
+.location {
+    display: flex;
+    padding-top: 176px;
+    /* padding-right: 83px; */
+}
+
+.locate {
+    background-color: #292E36;
+    border-radius: 50%;
+    width: 73px;
+    height: 73px;
+}
+
+.cate {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.river h6 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Cormorant Infant;
+    padding-top: 5px;
+    padding-left: 16px;
+}
+
+.river p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Josefin Sans;
+    padding-left: 16px;
+    padding-right: 20px;
+}
+
+.open {
+    display: flex;
+    padding-top: 176px;
+    /* padding-right: 73px; */
+}
+
+.group {
+    background-color: #292E36;
+    border-radius: 50%;
+    width: 73px;
+    height: 73px;
+}
+
+.roup{
+    padding-left: 13px;
+    padding-top: 12px;
+}
+
+.hours h6 {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Cormorant Infant;
+    padding-left: 16px;
+    padding-top: 5px;
+}
+
+.hours p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Josefin Sans;
+    padding-left: 16px;
+    padding-right: 20px;
+}
+
+.serve {
+    display: flex;
+    padding-top: 176px;
+}
+
+.Reserve {
+    background-color: hsl(217, 14%, 19%);
+    border-radius: 50%;
+    width: 73px;
+    height: 73px;
+}
+
+.rent {
+    padding-left: 17px;
+    padding-top: 15px;
+}
+
+.hired h6 {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Cormorant Infant;
+    padding-top: 5px;
+    padding-left: 16px;
+}
+
+.hired p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Josefin Sans;
+    padding-left: 16px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 148px;
+    color: #292E36;
+}
+
+.table {
+    display: flex;
+    padding-left: 115px;
+    /* padding-right: 100px; */
+    padding-bottom: 176px;
+}
+
+.cup {
+    width: 639px;
+    height: 446px;
+}
+
+.story {
+    color: #555555;
+    padding-left: 97px;
+}
+
+.letter h6 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Cormorant Infant;
+    padding-bottom: 20px;
+}
+
+.letter p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Josefin Sans;
+    padding-bottom: 34px;
+}
+
+.date {
+    display: flex;
+    padding-bottom: 34px;
+}
+
+.year h6{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Cormorant Infants;
+    padding-bottom: 18px;
+}
+
+.year p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Josefin Sans;
+}
+
+.years h6{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Cormorant Infants;
+    padding-bottom: 18px;
+    padding-left: 40px;
+}
+
+.years p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Josefin Sans;
+    padding-left: 40px;
+}
+
+.yes {
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+}
+
+.no {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Playwrite CU;
+}
+
+.all {
+    color: #555555;
+}
+
+.all h6 {
+    font-size: 15px;
+    font-family: Josefin Sans;
+    font-weight: 500;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+}
+
+.all h5 {
+    font-size: 40px;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    padding-top: 37px;
+    padding-bottom: 22px;
+}
+
+.all p {
+    width: 398px;
+    padding-bottom: 59px;
+    font-size: 20px;
+}
+
+.dishes {
+    width: 232px;
+    height: 68px;
+    border: 1px solid #E1B168;
+    color: #E1B168;
+    background-color: white;
+    font-size: 22px;
+    font-family: Josefin Sans;
+    margin-top: 59px;
+}
+
+.offer {
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+    padding-left: 118px;
+    
+}
+
+.scallop {
+    padding-left: 50px;
+}
+
+.scallop h5 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Cormorant Infant;
+    padding-bottom: 44px;
+}
+.empty {
+    height: 36px;
+}
+
+.truffle {
+    display: flex;
+}
+
+.raw {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.erquy {
+    padding-left: 21px;
+    padding-top: 10px;
+}
+
+.erquy h6 {
+    font-size: 30px;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+}
+
+.candle p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Josefin Sans;
+}
+
+.dollar {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Cormorant Infant;
+}
