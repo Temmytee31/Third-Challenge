@@ -384,8 +384,8 @@
 
 .person {
     display: flex;
-    width: 437px;
-    padding-left: 45px;
+    width: 314px;
+    padding-left: 30px;
     padding-top: 50px;
 }
 
@@ -395,16 +395,17 @@
 }
 
 .daniyal h5 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     font-family: Cormorant Infant;
     color: white;
     padding-top: 20px;
     padding-left: 24px;
+    padding-bottom: 15px;
 }
 
 .daniyal h6 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     font-family: Josefin Sans;
     color: #E1B168;
@@ -414,22 +415,29 @@
 .bord {
     border-bottom: 1px solid #797E89;
     padding-top: 31px;
-    width: 437px;
+    width: 300px;
+    margin-left: 25px;
 }
 
 .profess {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     font-family: Cormorant Infant;
     font-style: italic;
     color: white;
     padding-top: 25px;
-    width: 437px;
-    padding-left: 45px;
+    width: 400px;
+    padding-left: 30px;
 }
 
 .personal {
     background-color: #343942;
-    width: 526px;
-    height: 386px;
+    width: 380px;
+    height: 360px;
+}
+
+.mine {
+    display: flex;
+    gap: 35px;
+    padding-bottom: 171px;
 }

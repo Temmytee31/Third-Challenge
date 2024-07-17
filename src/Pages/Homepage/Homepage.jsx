@@ -20,6 +20,9 @@ import lemon from "../../assets/lemon.png"
 import males from "../../assets/males.png"
 import female from "../../assets/female.png"
 import male from "../../assets/male.png"
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
+import { EVENT_AUTOPLAY_PLAY, EVENT_AUTOPLAY_PLAYING } from "@splidejs/splide";
 
 
 const Homepage = () => {
@@ -184,7 +187,7 @@ const Homepage = () => {
                                 <div className="raw">
                                     <img src={beef} alt="" ></img>
                                     <div className="erquy">
-                                        <h6>Roast Beef with Vegetable</h6>
+                                         <h6>Roast Beef with Vegetable</h6>
                                         <div className="truffle">
                                             <div className="candle">
                                                 <p>Candied Jerusalem artichokes, truffle</p>
@@ -231,7 +234,7 @@ const Homepage = () => {
                                             <div className="candle">
                                                 <p>Candied Jerusalem artichokes, truffle</p>
                                             </div>
-                                            <div className="empty"><img src={Pattern} alt=""></img> </div>
+                                             <div className="empty"><img src={Pattern} alt=""></img> </div>
                                             <div className="dollar">$40</div>
                                         </div>
                                     </div>
@@ -260,23 +263,106 @@ const Homepage = () => {
                     <h6>What our clients say</h6>
                 </div>
                 <div className="hear"><p>We love to hear from customers, so please leave a comment or say hello in an email.</p></div>
-                <div>
-                    <div className="personal">
-                        <div className="person">
-                            <div className="males">
-                                <img src={males} alt=""></img>
-                            </div>
-                            <div className="daniyal">
-                                <h5>Daniyal Sppra</h5>
-                                <h6>Newyork</h6>
-                            </div>
-                        </div>
-                        <div className="bord"></div>
-                        <p className="profess">"It is professional, considers everyone's time, can think about the  There are many 
-                            variations of passages whole probls small niche, friendly.
-                        </p>
+                <Splideoptions= {{
+                    arrows: false,
+                    autoplay: true,
+                    perPage: 3,
+                    speed: 500,
+                     
+                }}>
+                    <div className="mine">
+                        <SplideSlide className="personal">
+                                <div className="person">
+                                    <div className="males">
+                                        <img src={males} alt=""></img>
+                                    </div>
+                                    <div className="daniyal">
+                                        <h5>Daniyal Sppra</h5>
+                                        <h6>Newyork</h6>
+                                    </div>
+                                </div>
+                                <div className="bord"></div>
+                                <p className="profess">"It is professional, considers everyone's time, can think about the  There are many 
+                                    variations of passages whole probls small niche, friendly.
+                                </p>
+                        </SplideSlide> 
+                        <SplideSlide className="personal">
+                                <div className="person">
+                                    <div className="males">
+                                        <img src={female} alt=""></img>
+                                    </div>
+                                    <div className="daniyal">
+                                        <h5>Natasha D</h5>
+                                        <h6>Salt Lake City</h6>
+                                    </div>
+                                </div>
+                                <div className="bord"></div>
+                                <p className="profess">""It is professional, considers everyone's time, can think 
+                                    about the  There are many variations of passages.
+                                </p>
+                        </SplideSlide>
+                        <SplideSlide className="personal">
+                                <div className="person">
+                                    <div className="males">
+                                        <img src={male} alt=""></img>
+                                    </div>
+                                    <div className="daniyal">
+                                        <h5>Jack Sparrow</h5>
+                                        <h6>San Diego</h6>
+                                    </div>
+                                </div>
+                                <div className="bord"></div>
+                                <p className="profess">"It is professional, considers everyone's time, can think about 
+                                    the  There are many  passages whole probls small niche, friendly.
+                                </p>
+                        </SplideSlide>
+                        <SplideSlide className="personal">
+                                <div className="person">
+                                    <div className="males">
+                                        <img src={males} alt=""></img>
+                                    </div>
+                                    <div className="daniyal">
+                                        <h5>Daniyal Sppra</h5>
+                                        <h6>Newyork</h6>
+                                    </div>
+                                </div>
+                                <div className="bord"></div>
+                                <p className="profess">"It is professional, considers everyone's time, can think about the  There are many 
+                                    variations of passages whole probls small niche, friendly.
+                                </p>
+                        </SplideSlide> 
+                        <SplideSlide className="personal">
+                                <div className="person">
+                                    <div className="males">
+                                        <img src={female} alt=""></img>
+                                    </div>
+                                    <div className="daniyal">
+                                        <h5>Natasha D</h5>
+                                        <h6>Salt Lake City</h6>
+                                    </div>
+                                </div>
+                                <div className="bord"></div>
+                                <p className="profess">""It is professional, considers everyone's time, can think 
+                                    about the  There are many variations of passages.
+                                </p>
+                        </SplideSlide>
+                        <SplideSlide className="personal">
+                                <div className="person">
+                                    <div className="males">
+                                        <img src={male} alt=""></img>
+                                    </div>
+                                    <div className="daniyal">
+                                        <h5>Jack Sparrow</h5>
+                                        <h6>San Diego</h6>
+                                    </div>
+                                </div>
+                                <div className="bord"></div>
+                                <p className="profess">"It is professional, considers everyone's time, can think about 
+                                    the  There are many  passages whole probls small niche, friendly.
+                                </p>
+                        </SplideSlide>
                     </div>
-                </div>
+                </Splide>
             </section>
         </div>
     )
