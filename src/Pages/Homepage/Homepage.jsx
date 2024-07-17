@@ -11,6 +11,15 @@ import snack from "../../assets/snack.png"
 import onion from "../../assets/onion.png"
 import tomatoes from "../../assets/tomatoes.png"
 import Pattern from "../../assets/Pattern.png"
+import sauce from "../../assets/sauce.png"
+import beef from "../../assets/beef.png"
+import curry from "../../assets/curry.png"
+import potatoes from "../../assets/potatoes.png"
+import apple from "../../assets/apple.png"
+import lemon from "../../assets/lemon.png"
+import males from "../../assets/males.png"
+import female from "../../assets/female.png"
+import male from "../../assets/male.png"
 
 
 const Homepage = () => {
@@ -157,7 +166,115 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="scallop">
+                                <h5>Main Dish</h5>
+                                <div className="raw">
+                                    <img src={sauce} alt=""></img>
+                                    <div className="erquy">
+                                        <h6>Grilled Salmon with Dil Sauce</h6>
+                                        <div className="truffle">
+                                            <div className="candle">
+                                                <p>Candied Jerusalem artichokes, truffle</p>
+                                            </div>
+                                            <div className="empty"><img src={Pattern} alt=""></img> </div>
+                                            <div className="dollar">$40</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="raw">
+                                    <img src={beef} alt="" ></img>
+                                    <div className="erquy">
+                                        <h6>Roast Beef with Vegetable</h6>
+                                        <div className="truffle">
+                                            <div className="candle">
+                                                <p>Candied Jerusalem artichokes, truffle</p>
+                                            </div>
+                                            <div className="empty"><img src={Pattern} alt=""></img> </div>
+                                            <div className="dollar">$20</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="raw">
+                                    <img src={curry} alt="" ></img>
+                                    <div className="erquy">
+                                        <h6>Marrkesh Vegetetarian Curruy</h6>
+                                        <div className="truffle">
+                                            <div className="candle">
+                                                <p>Candied Jerusalem artichokes, truffle</p>
+                                            </div>
+                                            <div className="empty"><img src={Pattern} alt=""></img> </div>
+                                            <div className="dollar">$25</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="raw">
+                                    <img src={potatoes} alt="" ></img>
+                                    <div className="erquy">
+                                        <h6>Spicy Vegan Potato Curry</h6>
+                                        <div className="truffle">
+                                            <div className="candle">
+                                                <p>Candied Jerusalem artichokes, truffle</p>
+                                            </div>
+                                            <div className="empty"><img src={Pattern} alt=""></img> </div>
+                                            <div className="dollar">$30</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="scallop">
+                                <h5>Dessert</h5>
+                                <div className="raw">
+                                    <img src={apple} alt=""></img>
+                                    <div className="erquy">
+                                        <h6>Apple Pie with Cream</h6>
+                                        <div className="truffle">
+                                            <div className="candle">
+                                                <p>Candied Jerusalem artichokes, truffle</p>
+                                            </div>
+                                            <div className="empty"><img src={Pattern} alt=""></img> </div>
+                                            <div className="dollar">$40</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="raw">
+                                    <img src={lemon} alt="" ></img>
+                                    <div className="erquy">
+                                        <h6>Lemon Meringue Pie</h6>
+                                        <div className="truffle">
+                                            <div className="candle">
+                                                <p>Candied Jerusalem artichokes, truffle</p>
+                                            </div>
+                                            <div className="empty"><img src={Pattern} alt=""></img> </div>
+                                            <div className="dollar">$20</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section className="customer">
+                <div className="testimon">
+                    <p>TESTIMONIAL</p>
+                    <h6>What our clients say</h6>
+                </div>
+                <div className="hear"><p>We love to hear from customers, so please leave a comment or say hello in an email.</p></div>
+                <div>
+                    <div className="personal">
+                        <div className="person">
+                            <div className="males">
+                                <img src={males} alt=""></img>
+                            </div>
+                            <div className="daniyal">
+                                <h5>Daniyal Sppra</h5>
+                                <h6>Newyork</h6>
+                            </div>
+                        </div>
+                        <div className="bord"></div>
+                        <p className="profess">"It is professional, considers everyone's time, can think about the  There are many 
+                            variations of passages whole probls small niche, friendly.
+                        </p>
                     </div>
                 </div>
             </section>

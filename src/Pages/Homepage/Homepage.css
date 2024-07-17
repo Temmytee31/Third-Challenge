@@ -43,6 +43,11 @@
     font-family: Josefin Sans;
 }
 
+.hero button:hover {
+    background-color: #E1B168;
+    color: #292E36;
+}
+
 .image {
     padding-top: 24px;
     width: 709px;
@@ -248,6 +253,9 @@
     font-weight: 500;
     border-top: 1px solid #E1B168;
     border-bottom: 1px solid #E1B168;
+    width: 50px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .all h5 {
@@ -273,6 +281,12 @@
     font-size: 22px;
     font-family: Josefin Sans;
     margin-top: 59px;
+    cursor: pointer;
+}
+
+.dishes:hover {
+    background: #E1B168;
+    color: #292E36;
 }
 
 .offer {
@@ -280,6 +294,7 @@
     padding-top: 200px;
     justify-content: center;
     padding-left: 118px;
+    padding-bottom: 154px;
     
 }
 
@@ -327,4 +342,94 @@
     font-size: 30px;
     font-weight: 700;
     font-family: Cormorant Infant;
+}
+
+.customer {
+    background-color: #292E36;
+    padding-left: 118px;
+}
+
+.testimon {
+    padding-top: 101px;
+}
+
+.testimon p {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Josefin Sans;
+    color: white;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    width: 105px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.testimon h6 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Cormorant Infant;
+    color: white;
+    padding-top: 19px;
+    padding-bottom: 20px;
+}
+
+.hear p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Josefin Sans;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.person {
+    display: flex;
+    width: 437px;
+    padding-left: 45px;
+    padding-top: 50px;
+}
+
+.males {
+    width: 113px;
+    height: 112px;
+}
+
+.daniyal h5 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Cormorant Infant;
+    color: white;
+    padding-top: 20px;
+    padding-left: 24px;
+}
+
+.daniyal h6 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Josefin Sans;
+    color: #E1B168;
+    padding-left: 24px;
+}
+
+.bord {
+    border-bottom: 1px solid #797E89;
+    padding-top: 31px;
+    width: 437px;
+}
+
+.profess {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Cormorant Infant;
+    font-style: italic;
+    color: white;
+    padding-top: 25px;
+    width: 437px;
+    padding-left: 45px;
+}
+
+.personal {
+    background-color: #343942;
+    width: 526px;
+    height: 386px;
 }

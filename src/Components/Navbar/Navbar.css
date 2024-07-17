@@ -29,6 +29,11 @@
     font-family: Josefin Sans;
 }
 
+.call:hover {
+    background-color: #E1B168;
+    color: #292E36;
+}
+
 .taste {
     margin-right: 100px;
 }
@@ -49,6 +54,10 @@
     cursor: pointer;
 }
 
+.reserve:hover {
+    color: #E1B168;
+    background-color: #292E36;
+}
 
 .social-media{
     border: 1px solid #5C6168;
