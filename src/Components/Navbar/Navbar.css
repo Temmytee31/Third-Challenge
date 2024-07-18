@@ -32,6 +32,7 @@
 .call:hover {
     background-color: #E1B168;
     color: #292E36;
+    border: 1px solid #292E36;
 }
 
 .taste {
@@ -57,6 +58,7 @@
 .reserve:hover {
     color: #E1B168;
     background-color: #292E36;
+    border: 1px solid #E1B168;
 }
 
 .social-media{

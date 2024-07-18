@@ -23,6 +23,19 @@ import male from "../../assets/male.png"
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import { EVENT_AUTOPLAY_PLAY, EVENT_AUTOPLAY_PLAYING } from "@splidejs/splide";
+import light from "../../assets/light.png"
+import burgar from "../../assets/burgar.png"
+import pizza from "../../assets/pizza.png"
+import moimoi from "../../assets/moimoi.png"
+import china from "../../assets/china.png"
+import drink from "../../assets/drink.png"
+import india from "../../assets/india.png"
+import calan from "../../assets/calan.png"
+import book from "../../assets/book.png"
+import keke from "../../assets/keke.png"
+import coconut from "../../assets/coconut.png"
+import back from "../../assets/back.png"
+
 
 
 const Homepage = () => {
@@ -263,12 +276,11 @@ const Homepage = () => {
                     <h6>What our clients say</h6>
                 </div>
                 <div className="hear"><p>We love to hear from customers, so please leave a comment or say hello in an email.</p></div>
-                <Splideoptions= {{
+                <Splide options= {{
                     arrows: false,
                     autoplay: true,
                     perPage: 3,
                     speed: 500,
-                     
                 }}>
                     <div className="mine">
                         <SplideSlide className="personal">
@@ -343,7 +355,7 @@ const Homepage = () => {
                                 </div>
                                 <div className="bord"></div>
                                 <p className="profess">""It is professional, considers everyone's time, can think 
-                                    about the  There are many variations of passages.
+                                   about the  There are many variations of passages.
                                 </p>
                         </SplideSlide>
                         <SplideSlide className="personal">
@@ -363,6 +375,142 @@ const Homepage = () => {
                         </SplideSlide>
                     </div>
                 </Splide>
+            </section>
+            <div>
+                <img className="light" src={light} alt="" ></img>
+            </div>
+            <section className="content">
+                    <div className="normal">
+                        <h6>OFFER</h6>
+                        <h5>Our special  Offer dishes</h5>
+                        <p>Lorem Ipsum is that it has a more-or-less normal distribution 
+                            of letters, as opposed to using 'Content here, content making.
+                        </p>
+                    </div>
+                    <div className="chef">
+                        <div className="burgar">
+                            <img src={burgar} alt="" ></img>
+                        </div>
+                        <div className="pizza">
+                            <img src={pizza} alt="" ></img>
+                        </div>
+                    </div>
+                    <div className="normals">
+                        <h6>MENU</h6>
+                        <h5>Popular Dishes</h5>
+                        <p>Lorem Ipsum is that it has a more-or-less normal 
+                            distribution of letters, as opposed to using 'Content here, content making.
+                        </p>
+                    </div>
+                    <div className="china">
+                        <div className="manjoori">
+                            <img className="moimoi" src={moimoi} alt="" ></img>
+                            <div className="what">
+                                <div className="chic"><h5>Chicken Manjoori</h5></div>
+                                <div className="15"><h5>$15</h5></div>
+                            </div>
+                            <p>Lorem Ipsum is that it has a, more-or-less normal</p>
+                        </div>
+                        <div className="manjoori">
+                            <img className="moimoi" src={china} alt="" ></img>
+                            <div className="what">
+                                <div className="chic"><h5>Chicken Manjoori</h5></div>
+                                <div className="15"><h5>$15</h5></div>
+                            </div>
+                            <p>Lorem Ipsum is that it has a, more-or-less normal</p>
+                        </div>
+                        <div className="manjoori">
+                            <img className="moimoi" src={drink} alt="" ></img>
+                            <div className="what">
+                                <div className="chic"><h5>Chicken Manjoori</h5></div>
+                                <div className="15"><h5>$15</h5></div>
+                            </div>
+                            <p>Lorem Ipsum is that it has a, more-or-less normal</p>
+                        </div>
+                        <div className="manjoori">
+                            <img className="moimoi" src={india} alt="" ></img>
+                            <div className="what">
+                                <div className="chic"><h5>Chicken Manjoori</h5></div>
+                                <div className="15"><h5>$15</h5></div>
+                            </div>
+                            <p>Lorem Ipsum is that it has a, more-or-less normal</p>
+                        </div>
+                    </div>
+                    <div className="see">
+                        <button>See all dishes</button>
+                    </div>
+            </section>
+            <section className="great">
+                <div className="opened">
+                    <div className="normal3">
+                        <h6>WHAT WE OFFER</h6>
+                        <h5>Our Great Services</h5>
+                        <p>Lorem Ipsum is that it has a more-or-less normal distribution content making it look like readable English. </p>
+                    </div>
+                    <div className="menus">
+                        <div className="calan">
+                            <img src={calan} alt="" ></img>
+                            <p>Opened 24/7</p>
+                        </div>
+                        <div className="calan">
+                            <img src={book} alt="" ></img>
+                            <p>Special Menus</p>
+                        </div>
+                        <div className="calan">
+                            <img src={keke} alt="" ></img>
+                            <p>Home Delivery</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="distribution">
+                    <div className="normals">
+                            <h6>BLOG</h6>
+                            <h5>Be First Who Read News</h5>
+                            <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content making. </p>
+                    </div>
+                    <div className="fruit">
+                        <div className="coconut">
+                            <img className="nut" src={coconut} alt="" ></img>
+                            <div className="cious">
+                                <div className="popular">
+                                    <div className="low"><h5>RETAURANTS</h5></div>
+                                    <div className="high"><h5>FEB 22, 2022</h5></div>
+                                </div>
+                                <h5 className="most">The Most Popular Delicious Food Of Mediterranean Cuisine</h5>
+                                <p>Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.</p>
+                            </div>
+                        </div>
+                        <div className="coconut">
+                            <img className="nuts" src={back} alt="" ></img>
+                            <div className="cious">
+                                <div className="popular">
+                                    <div className="low"><h5>RETAURANTS</h5></div>
+                                    <div className="high"><h5>FEB 22, 2022</h5></div>
+                                </div>
+                                <h5 className="most">Elegant Dessert: 10 Tips How to Make It at Home</h5>
+                                <p>Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="photo">
+                <div className="tion">
+                    <h6>RESERVATION</h6>
+                    <h5>Book your table now</h5>
+                    <div className="name">
+                        <input placeholder="Name" type="text"></input>
+                        <input placeholder="Email" type="email"></input>
+                    </div>
+                    <div className="timin">
+                        <input placeholder="Person" type="text"></input>
+                        <input placeholder="Timing" type="text"></input>
+                        <input placeholder="Date" type="number"></input>
+                    </div>
+                    <button className="fanta">Book a Table</button>
+                </div>
             </section>
         </div>
     )
