@@ -827,6 +827,7 @@ form{
     font-size: 22px;
     font-family: Josefin Sans;
     font-weight: 500;
+    color: white;
 }
 .per{  
     display: flex;

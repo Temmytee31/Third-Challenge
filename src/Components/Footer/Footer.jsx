@@ -8,6 +8,7 @@ import Pintrest from "../../assets/Pintrest.png";
 
 const Footer = () => {
   return (
+    
     <div className='family'>
         <div className='feed'>
             <div className='instagrams'>
