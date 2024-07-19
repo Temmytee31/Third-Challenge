@@ -39,6 +39,16 @@ import back from "../../assets/back.png"
 
 
 const Homepage = () => {
+    const options= {
+        type: "loop",
+        autoplay: true,
+        pauseOnHover: true,
+        resetProgess: false,
+        dots: false,
+        fixedWidth: "638px",
+        pagination: 3,
+        speed: 1000,
+    }
     return (
         <div>
             <section className="hero-section">
@@ -51,7 +61,7 @@ const Homepage = () => {
                         <button>View Menu</button>
                     </div>
                     <div className="image">
-                        <img src={image} alt=""></img>
+                        <img className="images" src={image} alt=""></img>
                     </div>
                     </div>
             </section>
@@ -87,7 +97,7 @@ const Homepage = () => {
                 </div>
                 <div className="table">
                     <div className="cup">
-                        <img src={Table} alt=""></img>
+                        <img className="cups" src={Table} alt=""></img>
                     </div>
                     <div className="story">
                         <div className="letter">
@@ -130,7 +140,7 @@ const Homepage = () => {
                             <div className="scallop">
                                 <h5>Starters</h5>
                                 <div className="raw">
-                                    <img src={blue} alt=""></img>
+                                    <img className="blue" src={blue} alt=""></img>
                                     <div className="erquy">
                                         <h6>Raw Scallops from Erquy</h6>
                                         <div className="truffle">
@@ -276,13 +286,8 @@ const Homepage = () => {
                     <h6>What our clients say</h6>
                 </div>
                 <div className="hear"><p>We love to hear from customers, so please leave a comment or say hello in an email.</p></div>
-                <Splide options= {{
-                    arrows: false,
-                    autoplay: true,
-                    perPage: 3,
-                    speed: 500,
-                }}>
-                    <div className="mine">
+                <div className="mine">
+                    <Splide>
                         <SplideSlide className="personal">
                                 <div className="person">
                                     <div className="males">
@@ -373,8 +378,8 @@ const Homepage = () => {
                                     the  There are many  passages whole probls small niche, friendly.
                                 </p>
                         </SplideSlide>
-                    </div>
-                </Splide>
+                    </Splide>
+                </div>
             </section>
             <div>
                 <img className="light" src={light} alt="" ></img>
@@ -447,7 +452,7 @@ const Homepage = () => {
                         <h5>Our Great Services</h5>
                         <p>Lorem Ipsum is that it has a more-or-less normal distribution content making it look like readable English. </p>
                     </div>
-                    <div className="menus">
+                    <div className="menus"> 
                         <div className="calan">
                             <img src={calan} alt="" ></img>
                             <p>Opened 24/7</p>
@@ -496,22 +501,27 @@ const Homepage = () => {
                     </div>
                 </div>
             </section>
-            <section className="photo">
-                <div className="tion">
+
+            <div className="bgc">
+                <div className="combi">
+                <div className="btext">
                     <h6>RESERVATION</h6>
-                    <h5>Book your table now</h5>
-                    <div className="name">
-                        <input placeholder="Name" type="text"></input>
-                        <input placeholder="Email" type="email"></input>
-                    </div>
-                    <div className="timin">
-                        <input placeholder="Person" type="text"></input>
-                        <input placeholder="Timing" type="text"></input>
-                        <input placeholder="Date" type="number"></input>
-                    </div>
-                    <button className="fanta">Book a Table</button>
+                    <h2>Book your table now</h2>
                 </div>
-            </section>
+                <form>
+                  <div className="fle">
+                    <input type="text" placeholder="NAME"/>
+                    <input type="mail" placeholder="EMAIL"/>
+                  </div>
+                  <div className="per">
+                    <input type="text" placeholder="PERSON"/>
+                    <input type="text" placeholder="TIMING"/>
+                    <input type="text" placeholder="DATE"/>
+                  </div>
+                  <button>Book a Table</button>
+                </form>
+                </div>
+            </div>
         </div>
     )
 }

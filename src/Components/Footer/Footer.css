@@ -1,0 +1,135 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.family {
+    background-color: #1F242C;
+}
+
+.instagrams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    padding-bottom: 64px;
+}
+
+.ins {
+    font-size: 22px;
+    font-family: Josefin Sans;
+    font-weight: 500;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.contact h6 {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Josefin Sans;
+    color: white;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    margin-bottom: 32px;
+    padding: 5px;
+    width: 98px;
+}
+
+.contact p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Josefin Sans;
+    color: white;
+    line-height: 30px;
+}
+
+.contact p span {
+    color: #E1B168;
+}
+
+.join p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Josefin Sans;
+    color: white;
+    padding-bottom: 32px;
+    padding-left: 100px;
+    line-height: 30px;
+}
+
+.sub input {
+    width: 258px;
+    height: 58px;
+    background: transparent;
+    border: 1px solid white;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Josefin Sans;
+    margin-left: 50px;
+}
+
+.sub button {
+    width: 132px;
+    height: 58px;
+    background-color: white;
+    color: #292E36;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Josefin Sans;
+    cursor: pointer;
+    border: none;
+}
+
+.sub button:hover {
+    background-color: #292E36;
+    color: white;
+}
+
+.hour h6 {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Josefin Sans;
+    color: white;
+    border-bottom: 1px solid #E1B168;
+    border-top: 1px solid #E1B168;
+    padding: 5px;
+    margin-bottom: 32px;
+    width: 154px;
+    margin-left: 110px;
+}
+
+.hour p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Josefin Sans;
+    color: white;
+    line-height: 30px;
+    padding-left: 110px;
+}
+
+.hour p span {
+    color: #E1B168;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #575B62;
+    margin-bottom: 30px;
+}
+
+.copy {
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.copy span {
+    color: #E1B168;
+}

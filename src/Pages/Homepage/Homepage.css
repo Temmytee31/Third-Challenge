@@ -12,6 +12,7 @@
 
 .hero {
     padding-top: 194px;
+    padding-left: 118px;
 }
 .hero h1 {
     font-family: Cormorant Infant;
@@ -54,6 +55,10 @@
     height: 747px;
     display: flex;
     justify-content: flex-end;
+}
+
+.images {
+    width: 100%;
 }
 
 .place {
@@ -176,12 +181,17 @@
 
 .cup {
     width: 639px;
-    height: 446px;
+    height: 535px;
+}
+
+.cups {
+    width: 100%;
 }
 
 .story {
     color: #555555;
-    padding-left: 97px;
+    padding-right: 147px;
+    padding-left: 20px;
 }
 
 .letter h6 {
@@ -196,6 +206,7 @@
     font-weight: 400;
     font-family: Josefin Sans;
     padding-bottom: 34px;
+    width: 628px;
 }
 
 .date {
@@ -214,6 +225,7 @@
     font-size: 20px;
     font-weight: 400;
     font-family: Josefin Sans;
+    width: 308px;
 }
 
 .years h6{
@@ -229,6 +241,7 @@
     font-weight: 400;
     font-family: Josefin Sans;
     padding-left: 40px;
+    width: 283px;
 }
 
 .yes {
@@ -303,7 +316,7 @@
 }
 
 .scallop h5 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     font-family: Cormorant Infant;
     padding-bottom: 44px;
@@ -327,19 +340,19 @@
 }
 
 .erquy h6 {
-    font-size: 30px;
+    font-size: 20px;
     font-family: Cormorant Infant;
     font-weight: 700;
 }
 
 .candle p {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     font-family: Josefin Sans;
 }
 
 .dollar {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     font-family: Cormorant Infant;
 }
@@ -384,13 +397,14 @@
 
 .person {
     display: flex;
-    width: 314px;
-    padding-left: 30px;
+    /* width: 314px; */
+    /* padding-left: 30px; */
     padding-top: 50px;
+    justify-content: center;
 }
 
 .males {
-    width: 113px;
+    /* width: 113px; */
     height: 112px;
 }
 
@@ -402,6 +416,7 @@
     padding-top: 20px;
     padding-left: 24px;
     padding-bottom: 15px;
+    text-align: center;
 }
 
 .daniyal h6 {
@@ -410,13 +425,14 @@
     font-family: Josefin Sans;
     color: #E1B168;
     padding-left: 24px;
+    text-align: center;
 }
 
 .bord {
     border-bottom: 1px solid #797E89;
     padding-top: 31px;
     width: 300px;
-    margin-left: 25px;
+    margin-left: 430px;
 }
 
 .profess {
@@ -426,24 +442,24 @@
     font-style: italic;
     color: white;
     padding-top: 25px;
-    width: 400px;
-    padding-left: 30px;
+    width: 800px;
+    padding-left: 430px;
 }
 
 .personal {
     background-color: #343942;
-    width: 380px;
+    /* width: 380px; */
     height: 360px;
 }
 
 .mine {
-    display: flex;
-    gap: 35px;
+    /* display: flex; */
+    /* gap: 35px; */
     padding-bottom: 171px;
 }
 
 .light {
-    width: 1345px;
+    width: 1340px;
     /* height: 608px; */
 }
 
@@ -736,13 +752,13 @@
     padding-bottom: 45px;
 }
 
-.coconut {
+.coconut{
     border-left: 1px solid #555555;
     border-right: 1px solid #555555;
     border-bottom: 1px solid #555555;
     margin-bottom: 200px;
 }
-
+ 
 .nuts {
     width: 100%;
     padding-bottom: 45px;
@@ -754,91 +770,94 @@
     margin-left: 118px;
     gap: 56px;
 }
-
-.photo {
+ 
+.bgc{
     background-image: url(../../assets/Background.png);
+    height: 40rem;
 }
-
-.tion {
+.combi{
     background-color: #292E36F2;
     width: 50%;
-    padding-top: 194px;
-    padding-left: 232px;
-    justify-content: center;
-    align-items: center;
-    
+    height: 500px;
+    margin-left: 25%;
+    position: relative;
+    z-index: 10;
+    top: 70px;
 }
-
-.tion h6 {
-    font-size: 15px;
-    font-weight: 500;
-    font-family: Josefin Sans;
-    color: white;
+.btext{
+   text-align: center;
+   padding-top: 90px; 
+   /* line-height: 50px; */
+}
+.btext h6{
     border-top: 1px solid #E1B168;
     border-bottom: 1px solid #E1B168;
-    width: 110px;
-    margin-bottom: 19px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    margin-left: 350px;
-    /* margin-top: 51px; */
+     width: 150px;
+     margin-left: 17rem;
+     padding: 10px;
+     margin-bottom: 20px;
+     font-family: Josefin Sans;
+     font-size: 15px;
+     font-weight: 500;
+     color: white;
 }
 
-.tion h5 {
-    font-size: 40px;
-    font-weight: 700;
-    font-family: Cormorant Infant;
-    color: white;
-    padding-bottom: 41px;
-    padding-left: 250px;
+.btext h2{
+     margin-bottom: 20px;
+     font-family: Cormorant Infant;
+     font-size: 40px;
+     font-weight: 700;
+     color: white;
 }
-
-.name input {
-    width: 358px;
-    height: 68px;
-    font-size: 22px;
-    font-weight: 500;
-    font-family: Josefin Sans;
-    align-items: center;
-    color: white;
-    margin-right: 28px;
-    margin-bottom: 38px;
+form{
+    text-align: center;
+}
+.fle{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.fle input {
+    background: transparent;
+    border: 1px solid #858585;
+    width: 250px;
+    height: 40px;
     padding-left: 10px;
-    background-color: #292E36F2;
-    border: 1px solid white;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-family: Josefin Sans;
+    font-weight: 500;
+}
+.per{  
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
-.timin input {
-    width: 232px;
-    height: 68px;
-    font-size: 22px;
-    font-weight: 500;
-    font-family: Josefin Sans;
-    align-items: center;
-    color: white;
-    gap: 28px;
-    margin-bottom: 38px;
-    margin-right: 24px;
+.per input {
+    background: transparent;
+    border: 1px solid #858585;
+    width: 163px;
+    height: 40px;
     padding-left: 10px;
-    background-color: #292E36F2;
-    border: 1px solid white;
-}
-
-.fanta {
-    width: 232px;
-    height: 68px;
-    background-color: white;
-    color: #292E36;
     font-size: 22px;
-    font-weight: 500;
     font-family: Josefin Sans;
+    font-weight: 500;
+}
+.combi button{
+    width: 163px;
+    height: 40px;
+    background-color: #fff;
     border: none;
-    cursor: pointer;
-    margin-left: 300px;
+    color: #292E36;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: Josefin Sans;
+    font-weight: 500;
 }
 
-.fanta:hover{
+.combi button:hover{
     background-color: #292E36;
     color: white;
-    border: 1px solid white;
+    border: 1px solid #E1B168;
 }
